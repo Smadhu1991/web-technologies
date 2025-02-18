@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <title>Welcome to my website</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        
+  .double-hr {
+    
+    
+    border: none;
+    height: 2px;
+    background: black;
+    box-shadow: 0 4px 0 black;
+  }
+  .a{
+    width: 50%;
+  }
+        
+        </style>
+    <title>Welcome to the website</title>
+</head>
+<body>
+    <body>
+        <div class="container mt-5">
+            <h2 class="text-center">Nypunyam Registration Portal</h2><br>
+            <div class="d-grid gap-2 d-md-block">
+                <button type="button" class="btn btn-danger btn-sm">Personal information</button>
+                 </div>  
+            
+                 <hr class="double-hr">
+                 
+                 
+            <div class="row g-3 mt-4">
+                <div class="col-4">
+                    <label for="dob" class="form-label">Date of Birth</label>
+                    <input type="date" class="form-control" id="dob" required>   
+                </div>
+                <div class="col-4">
+                    <label for="Aadhar Number" class="form-label">Aadhar number</label>
+                    <input type="number" class="form-control" id="number" required>
+                </div>
+                <div class="col-4">
+                    <label for="Full name" class="form-label">Full name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="col-4">
+                    <label for="Father name" class="form-label">Father name</label>
+                    <input type="text" class="form-control" id="Father name" required>
+                </div>
+                <div class="col-4">
+                    <label for="Age" class="form-label">Age</label>
+                    <input type="number" class="form-control" id="Age" required>
+                </div>
+                <div class="col-4">
+                    <label for="gender" class="form-label">Gender</label>    
+                    <select class="form-select" id="Gender" required>
+                        <option value="">Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="col-4">
+                    <label for="residentAP" class="form-label">Are you a resident of A.P?</label>
+                <select class="form-select" id="residentAP" required>
+                    <option value="">Select</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                </div>
+                <div class="col-4">
+                    <label for="religion" class="form-label">Religion</label>
+                    <select class="form-select" id="Category" required>
+                        <option value="">Select</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Muslim">Muslim</option>
+                        <option value="Christian">Christian</option> 
+                        </select>
+                </div>
+                <div class="col-4">
+                <label for="disabilityType" class="form-label"> Disability</label>
+            <select class="form-select" id="disabilityType">
+                <option value="" selected disabled>Select your disability type</option>
+                <option value="visual">Visual Impairment</option>
+                <option value="hearing">Hearing Impairment</option>
+                <option value="mobility">Mobility Disability</option>
+                <option value="cognitive">Cognitive Disability</option>
+                <option value="other">Other</option>
+            </select>
+            </div>
+                <div class="col-4">
+                    <label for="Category" class="form-label">Category</label>
+                    <select class="form-select" id="maritalStatus" required>
+                        <option value="">Select</option>
+                        <option value="O.c">O.C</option>
+                        <option value="B.c">B.c</option>
+                        <option value="S.c">S.c</option>
+                        <option value="S.T">S.T</option>
+                    </select> 
+                </div>
+                <div class="col-4">
+                    <label for="maritalStatus" class="form-label">Marital Status</label>
+                    <select class="form-select" id="maritalStatus" required>
+                        <option value="">Select</option>
+                        <option value="single">Single</option>
+                        <option value="married">Married</option>
+                        <option value="divorced">Divorced</option>
+                        <option value="widowed">Widowed</option>
+                    </select>
+                </div>
+                <div class="a">
+                    <label for="photo" class="form-label">Upload photo</label>
+                    <input type="file" class="form-control" id="photo" required>
+                </div>
+                <div class="d-grid gap-2 d-md-block">
+                    <button type="button" class="btn btn-danger btn-sm">Contact details</button>
+                     </div>                  
+                 <hr class="double-hr">                                                  
+                <div class="col-4">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required> 
+                    </div>  
+                    <div class="col-4" >
+                        <label for="mobile number" class="form-label">mobile Number</label>
+                        <input type="number" class="form-control" id="mobile number" required> 
+                        </div>
+                        <div class="col-4"> 
+                            <label for="mobile number" class="form-label"> Alternate mobile Number</label>
+                            <input type="number" class="form-control" id=" Alternate mobile number" required> 
+                            </div>
+                            <div class="d-grid gap-2 d-md-block">
+                                <button type="button" class="btn btn-danger btn-sm">Login information</button>
+                                 </div>  
+                              
+                                 <hr class="double-hr ">                                                                                                  
+                            <div class="col-4">                                
+                                    <label for="username" class="form-label">Username<span class="text-danger">*</span></label>
+                                    
+                                    </div>
+                            <div class="col-4">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" required>
+                            </div>
+                            <div class="col-4">
+                                <label for="confirmPassword" class="form-label">Confirm Password</label>
+                                <input type="password" class="form-control" id="confirmPassword" required>
+                                </div>
+                                <div class="d-grid gap-2 d-md-block">
+                                    <button type="button" class="btn btn-danger btn-sm">Communication Address</button>
+                                     </div>
+                                     <hr class="double-hr"> 
+                                     <div>
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="rural" checked>
+                                        <label class="form-check-label" for="rural">
+                                       Rural
+                                      </label>
+                                      <input class="form-check-input"type="radio"name="exampleRadios"id="urban"checked>
+                                      <label class="form-check-label"for="urban">
+                                        urban
+                                        </label>
+                                        </div>
+                                        <div class="col-4">
+                                            <label for="state"class="form-label">State</label>
+                                            <input type="text"class="form-control"id="Andhra pradesh"required>
+                                            </div>
+                                            <div class="col-4">
+                                                <label for="District" class="form-label">District</label>
+                                                <select class="form-select" id="District" required>
+                                                    
+                                                    <option value="Krishna">Krishna</option>
+                                                    <option value="East Godavari">East Godavari</option>
+                                                    <option value="West Godavari">West Godavari</option>
+                                                    <option value="Nellore">Nellore</option>
+                                                    <option value="Chitoor">Chitoor</option>
+                                                    <option value="Kadapa">Kadapa</option>
+                                                  </select>
+                                                </div>
+                                                <div class="col-4">
+                                                    <label for="Mandal" class="form-label">Mandal</label>
+                                                    <select class="form-select" id="Mandal" required>
+                                                        
+                                                        <option value="Penamaluru">Penamaluru</option>
+                                                        <option value=" Vijayawada ">Vijayawada</option>
+                                                        <option value="Ganavaram">Ganavaram</option>
+                                                        <option value="Avanigada">Avanigada</option>
+                                                        <option value="Gudlavaleru">Gudlavaleru</option>
+                                                        <option value="Pedana">Pedana</option>
+                                                      </select>
+                                                    </div> 
+                                                    <div class="col-4">
+                                                        <label for="Parlementry Constiuency" class="form-label">parlementry  Constiuency</label>
+                                                        <select class="form-select" id="Parlementry Constiuency" required>
+                                                            
+                                                            <option value="Vijayawada central">Vijayawada central</option>
+                                                            <option value=" Vijayawada East ">Vijayawada-East</option>
+                                                            <option value="Vijayawada West">Vijayawada west</option>
+                                                            <option value="Mylavaram">Mylavaram</option>
+                                                            <option value="Machilipatanam">Machilipatanam</option>
+                                                            <option value="Pedana">Pedana</option>
+                                                          </select>
+                                                        </div> 
+                                                        <div class="col-4">
+                                                            <label for="Assembly Constiuency" class="form-label">Assembly Constiuency</label>
+                                                            <select class="form-select" id="Assembly Constiuency" required>
+                                                                
+                                                                <option value="Ganavaram">Ganavaram</option>
+                                                                <option value="palnadu  ">palnadu</option>
+                                                                <option value="N.T.R District">N.T.R District</option>
+                                                                <option value="Eluru">Eluru</option>    
+                                                              </select>
+                                                            </div> 
+                                                            <div class="col-4">
+                                                                <label for="houseNumber" class="form-label">House Number</label>
+                                                                <input type="text" class="form-control" id="houseNumber" name="houseNumber" placeholder="Enter house number" required>
+                                                                </div>
+                                                                <div class="col-4" >
+                                                                    <label for="Ward number" class="form-label">Ward Number</label>
+                                                                    <input type="text" class="form-control" id="Ward number" name="Ward number" placeholder="Enter Ward number" required>    
+                                                                    </div>
+
+                                                                </form>          
+                                                            </body>
+                                                        </html>
+                                                                                                                
+
+
+                                
+                             
+                
+            </form>
+        </div>
+</body>    
+    </html>
+
+        
+        
+        
+    
+</body>
+</html>
